@@ -172,11 +172,8 @@ def test_job_scheduling():
     print(f"Selected jobs: {job_scheduling(jobs)}")
     print()
 
-def main():
-    test_selection_sort()
-    test_prims_mst()
-    test_kruskals_mst()
-    test_dijkstra()
-    test_job_scheduling()
-
-main()
+test_selection_sort()
+test_prims_mst()
+test_kruskals_mst()
+test_dijkstra()
+test_job_scheduling()
